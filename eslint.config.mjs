@@ -71,6 +71,7 @@ const config = [
                     enforceForRenamedProperties: false,
                 },
             ],
+            'react/jsx-wrap-multilines': ['error'],
         },
         settings: {
             react: {
