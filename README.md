@@ -1,6 +1,6 @@
 # 📦 Installation
 ```
-yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks @next/eslint-plugin-next
+yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks @next/eslint-plugin-next typescript-eslint
 ```
 # 🚀 Usage
 In your ESLint config file (e.g., eslint.config.mjs):
