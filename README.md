@@ -1,9 +1,45 @@
-# 📦 Installation
-```
-yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks @next/eslint-plugin-next typescript-eslint
-```
 # 🚀 Usage
-In your ESLint config file (e.g., eslint.config.mjs):
+Add these rules to your `eslint.config`
+```
+rules: {
+            '@typescript-eslint/no-unused-vars': ['error'],
+            '@typescript-eslint/no-explicit-any': 'warn',
+            '@typescript-eslint/explicit-function-return-type': 'off',
+            '@typescript-eslint/no-non-null-assertion': 'warn',
+            '@typescript-eslint/consistent-type-imports': 'error',
+            'react-hooks/rules-of-hooks': 'error',
+            'react-hooks/exhaustive-deps': 'warn',
+            '@next/next/no-img-element': 'error',
+            '@next/next/no-sync-scripts': 'error',
+            '@next/next/no-page-custom-font': 'error',
+            '@next/next/no-head-element': 'error',
+            'no-console': 'warn',
+            'no-unused-vars': 'off',
+            'eol-last': ['error', 'always'],
+            eqeqeq: 'error',
+            curly: 'error',
+            semi: ['error', 'always'],
+            quotes: ['error', 'single'],
+            indent: ['error', 4],
+            'prefer-destructuring': [
+                'error',
+                {
+                    VariableDeclarator: {
+                        object: true,
+                        array: false,
+                    },
+                    AssignmentExpression: {
+                        object: false,
+                        array: false,
+                    },
+                },
+                {
+                    enforceForRenamedProperties: false,
+                },
+            ],
+            'react/jsx-wrap-multilines': ['error'],
+        },
+```
 # 🛠️ Included Rules
 
 ### TypeScript Rules (@typescript-eslint)
