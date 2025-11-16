@@ -17,7 +17,6 @@ rules: {
             'no-unused-vars': 'off',
             'eol-last': ['error', 'always'],
             eqeqeq: 'error',
-            curly: 'error',
             semi: ['error', 'always'],
             quotes: ['error', 'single'],
             indent: ['error', 4],
