@@ -4,7 +4,6 @@ Add these rules to your `eslint.config`
 rules: {
             '@typescript-eslint/no-unused-vars': ['error'],
             '@typescript-eslint/no-explicit-any': 'warn',
-            '@typescript-eslint/explicit-function-return-type': 'off',
             '@typescript-eslint/no-non-null-assertion': 'warn',
             '@typescript-eslint/consistent-type-imports': 'error',
             'react-hooks/rules-of-hooks': 'error',
