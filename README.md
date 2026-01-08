@@ -5,7 +5,6 @@ rules: {
             '@typescript-eslint/no-unused-vars': ['error'],
             '@typescript-eslint/no-explicit-any': 'warn',
             '@typescript-eslint/no-non-null-assertion': 'warn',
-            '@typescript-eslint/consistent-type-imports': 'error',
             'react-hooks/rules-of-hooks': 'error',
             'react-hooks/exhaustive-deps': 'warn',
             '@next/next/no-img-element': 'error',
